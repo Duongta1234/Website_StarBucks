@@ -1,0 +1,897 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+@font-face {
+    
+    font-family: duong_font;
+    src: url(beatifuly-font/Beatifuly-mLYMP.otf);
+}
+@font-face {
+    font-family: abc;
+    src: url(flor-font/FlorPersonalUseRegular-rgpoy.ttf);
+}
+body {
+   
+}
+
+.container {
+   
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    box-shadow: 10px 0px 7px 0px grey;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head .left-head {
+    margin-top: 26px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.head .left-head .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 41px;
+}
+
+.head .left-head .logo svg {
+    width: 55px;
+    height: 55px;
+}
+
+.head .left-head .list ul li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 24px;
+    margin-top: 18px;
+}
+.left-head .list ul li:hover{
+    color:#00754a;
+}
+.right-head {
+    display: flex;
+    margin-top: 35px;
+}
+
+.right-head .logo {
+    display: flex;
+    margin-right: 40px;
+}
+
+.right-head .logo svg {
+    width: 30px;
+    height: 30px;
+}
+
+.right-head .logo h4 {
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.right-head .button_list {
+    display: none;
+}
+
+.right-head .button-sign-in button {
+    width: 79px;
+    height: 32px;
+    margin-right: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.right-head .list_menu {
+    display: none;
+}
+
+.right-head .button-Join-now button {
+    width: 79px;
+    height: 32px;
+    margin-right: 40px;
+    background-color: black;
+    color: white;
+
+    font-weight: 700;
+    border-radius: 15px;
+}
+.right-head .button-sign-in button a{
+    color: black;
+    text-decoration: none;
+}
+.right-head .button-Join-now button a{
+    color: white;
+    text-decoration: none;
+}
+.main {
+    width: 1440px;
+    margin: auto;
+}
+
+.main .box1 {
+    margin-top: 32px;
+    display: flex;
+    width: 100%;
+    height: 210px;
+}
+
+.main .box1 .left {
+    width: 50%;
+    height: 100%;
+}
+
+.main .box1 .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .box1 .right {
+    width: 50%;
+    background-color: #1e3932;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main .box1 .right .title {
+    margin-left: 148px;
+    margin-top: 44px;
+    margin-bottom: 60px;
+
+}
+
+.main .box1 .right .title h3 {
+    font-size: 24px;
+}
+
+.main .box1 .right .button-join {
+    margin-left: 251px;
+
+
+}
+
+.main .box1 .right .button-join button {
+    width: 219px;
+    height: 35px;
+    border-radius: 70px;
+    border: 1px solid white;
+    background-color: #1e3932;
+    color: white;
+    font-size: 16px;
+
+
+}
+
+
+
+@keyframes animaterbutton {
+    50% {
+        transform: scale(0.85);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.main .box2 {
+    height: 625px;
+    display: flex;
+    margin-top: 32px;
+}
+
+.main .box2 .left {
+    width: 50%;
+    height: 100%;
+    background-color: #faaa5a;
+}
+
+.main .box2 .left .title1 {
+    width: 416px;
+    margin: auto;
+    height: 124px;
+    letter-spacing: 1px;
+    margin-top: 169px;
+
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.box2 .left .title1 span {
+    font-size: 55px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box2 .left .starbuck_introduce {
+    text-align: center;
+    width: 517px;
+    height: 72px;
+    margin: 78px auto;
+}
+
+.box2 .left .starbuck_introduce p {
+    font-size: 29px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box2 .left .button {
+    width: 136px;
+    height: 35px;
+    margin: 90px auto;
+}
+
+.box2 .left .button button {
+    width: 100%;
+    height: 100%;
+    background-color: #faaa5a;
+    border: 1px solid black;
+    border-radius: 70px;
+    font-size: 17px;
+    font-weight: 540;
+}
+
+.main .box2 .right {
+    width: 50%;
+    height: 100%;
+}
+
+.main .box2 .right img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* ======BOX_3======== */
+
+.main .box3 {
+    height: 625px;
+    display: flex;
+    margin-top: 32px;
+}
+
+.main .box3 .right {
+    width: 50%;
+    height: 100%;
+    background-color: #fa91aa;
+}
+
+.main .box3 .right .title1 {
+    width: 517px;
+    margin: auto;
+    height: 124px;
+    letter-spacing: 1px;
+    margin-top: 169px;
+
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.box3 .right .title1 span {
+    font-size: 55px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box3 .right .starbuck_introduce {
+    text-align: center;
+    width: 517px;
+    height: 72px;
+    margin: 78px auto;
+}
+
+.box3 .right .starbuck_introduce p {
+    font-size: 29px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box3 .right .button {
+    width: 136px;
+    height: 35px;
+    margin: 90px auto;
+}
+
+.box3 .right .button button {
+    width: 100%;
+    height: 100%;
+    background-color: #fa91aa;
+    border: 1px solid black;
+    border-radius: 70px;
+    font-size: 17px;
+    font-weight: 540;
+}
+
+.main .box3 .left {
+    width: 50%;
+    height: 100%;
+}
+
+.main .box3 .left img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* ============== */
+.main .box4 {
+    height: 625px;
+    display: flex;
+    margin-top: 32px;
+}
+
+.main .box4 .left {
+    width: 50%;
+    height: 100%;
+    background-color: #f06464;
+}
+
+.main .box4 .left .title1 {
+    width: 416px;
+    margin: auto;
+    height: 124px;
+    letter-spacing: 1px;
+    margin-top: 169px;
+
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.box4 .left .title1 span {
+    font-size: 55px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box4 .left .starbuck_introduce {
+    text-align: center;
+    width: 517px;
+    height: 72px;
+    margin: 45px auto;
+}
+
+.box4 .left .starbuck_introduce p {
+    font-size: 29px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box4 .left .button {
+    width: 136px;
+    height: 35px;
+    margin: 140px auto;
+}
+
+.box4 .left .button button {
+    width: 100%;
+    height: 100%;
+    background-color: #f06464;
+    border: 1px solid black;
+    border-radius: 70px;
+    font-size: 17px;
+    font-weight: 540;
+}
+
+.main .box4 .right {
+    width: 50%;
+    height: 100%;
+}
+
+.main .box4 .right img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text-content {
+    width: 646px;
+    height: 50px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.footer {
+    width: 100%;
+    height: 649.9px;
+}
+
+.footer .top-foot {
+    margin: 0px;
+    height: 50%;
+
+    display: flex;
+
+}
+
+.footer .top-foot .flex {
+    width: 240px;
+    height: 388px;
+
+}
+
+.footer .top-foot .flex h2 {
+    font-weight: 400;
+}
+
+.footer .top-foot .flex ul li {
+    list-style: none;
+    width: 190px;
+    padding-top: 25px;
+}
+
+.footer .top-foot .flex ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .58);
+    font-size: 1.1rem;
+}
+
+.footer .top-foot:nth-child(1) {
+    margin-left: 40px;
+}
+
+.footer .under-foot {
+    height: 50%;
+}
+
+.under-foot .social-media {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.under-foot .social-media svg {
+    margin-right: 10px;
+
+}
+
+.under-foot .social-media svg:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+      .container{
+        width: 100%;
+      }
+      .head{
+        width: 100%;
+        height: 120px;
+      }
+      .right-head{
+        display: none;
+      }
+      .head .left-head  .logo{
+        margin-top: 0px;
+        margin-left: 20px;
+      }
+      .head .left-head .list{
+        display: none;
+      }
+.right-head {
+    display: flex;
+    margin-top: 35px;
+}
+
+.right-head .logo {
+   display: none;
+}
+
+.right-head .button-sign-in {
+    display: none;
+}
+.right-head .button-Join-now{
+    display: none;
+}
+
+.right-head .button_list {
+    display: block;
+ margin-right: 50px;
+ position: relative;
+}
+.right-head .list_menu{
+    display: block;
+    width: 80%;
+    position: absolute;
+    top: 121px;
+    right: 20px;
+    left: 20%;
+    height: 0%;
+    transition: height .5s ease-in-out;
+    background-color: white;
+}
+.right-head .list_menu .list{
+    margin-left: 70px;
+    display: none;
+}
+.right-head .list_menu .list ul li{
+    margin-top: 20px;
+list-style: none;
+font-family: duong_font;
+font-size: 24px;
+}
+.right-head .list_menu .list hr{
+    width: 80%;
+    margin-top:10px ;
+    display: block;
+  
+    padding-left: 10px;
+    border-bottom: 1px solid #33433d;
+}
+.right-head .list_menu .button_form{
+    display: none;
+   
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.right-head .button_form .button-sign-in{
+   display: block;
+}
+.right-head .button_form .button-Join-now{
+    display: block;
+}
+.logo{
+    display: none;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+/* ============Box1======= */
+.main {
+    width: 100%;
+}
+.main .box1 {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 520px;
+}
+
+.main .box1 .left {
+    width: 100%;
+    height: 50%;
+}
+
+.main .box1 .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .box1 .right {
+    width: 100%;
+    height: 50%;
+    background-color: #1e3932;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main .box1 .right .title {
+    margin-left: 0px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 95%;
+}
+
+.main .box1 .right .title h3 {
+    font-size: 24px;
+}
+
+.main .box1 .right .button-join {
+  margin-left: 23%;
+ 
+
+}
+/* =======Box2====== */
+
+.main .box2 {
+    height: 650px;
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column-reverse;
+}
+
+.main .box2 .left {
+    width: 100%;
+    height: 50%;
+    background-color: #faaa5a;
+}
+
+.main .box2 .left .title1 {
+    width: 250px;
+    margin: auto;
+    height: 124px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+     
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.box2 .left .title1 span {
+    font-size: 35px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box2 .left .starbuck_introduce {
+  
+    width: 95%;
+    text-align: center;
+    height: 18px;
+   margin-top: 0px;
+   
+   margin-bottom: 0px;
+}
+
+.box2 .left .starbuck_introduce p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box2 .left .button {
+    width: 136px;
+    height: 35px;
+    margin: 90px auto;
+}
+
+.box2 .left .button button {
+    width: 100%;
+    height: 100%;
+    background-color: #faaa5a;
+    border: 1px solid black;
+    border-radius: 70px;
+    font-size: 17px;
+    font-weight: 540;
+}
+
+.main .box2 .right {
+    width: 100%;
+    
+    height:50%;
+}
+
+.main .box2 .right img {
+    width: 100%;
+    height: 100%;
+
+}
+/* =======Box3======= */
+
+.main .box3 {
+    height: 625px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 35px;
+}
+
+.main .box3 .right {
+    width: 100%;
+    height: 50%;
+    background-color: #fa91aa;
+}
+
+.main .box3 .right .title1 {
+    width: 300px;
+    margin: auto;
+    height: 120px;
+    letter-spacing: 1px;
+    margin-top: 16px;
+
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.box3 .right .title1 span {
+    font-size: 35px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box3 .right .starbuck_introduce {
+    
+    width: 310px;
+     
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.box3 .right .starbuck_introduce p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box3 .right .button {
+  
+    width: 136px;
+    height: 35px;
+   margin-top: 40px;
+}
+
+.box3 .right .button button {
+    width: 100%;
+    height: 100%;
+    background-color: #fa91aa;
+    border: 1px solid black;
+    border-radius: 70px;
+    font-size: 17px;
+    font-weight: 540;
+}
+
+.main .box3 .left {
+    width: 100%;
+    height: 50%;
+}
+
+.main .box3 .left img {
+    width: 100%;
+    height: 100%;
+
+}
+/* =======Box4===== */
+
+.main .box4 {
+    height: 670px;
+    display: flex;
+    margin-top: 35px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.main .box4 .left {
+    width: 100%;
+    height: 50%;
+    background-color: #f06464;
+}
+
+.main .box4 .left .title1 {
+    width: 310px;
+    margin: auto;
+    height: 90px;
+    letter-spacing: 1px;
+    margin-top:15px;
+     margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.box4 .left .title1 span {
+    font-size: 35px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box4 .left .starbuck_introduce {
+    
+    width: 315px;
+    height: 140px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.box4 .left .starbuck_introduce p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #33433d;
+}
+
+.box4 .left .button {
+    width: 136px;
+    height: 35px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   
+}
+
+.box4 .left .button button {
+    width: 100%;
+    height: 100%;
+    background-color: #f06464;
+    border: 1px solid black;
+    border-radius: 70px;
+    font-size: 17px;
+    font-weight: 540;
+}
+
+.main .box4 .right {
+    width: 100%;
+    height: 50%;
+}
+
+.main .box4 .right img {
+    width: 100%;
+    height: 100%;
+
+}
+.text-content {
+    width: 95%;
+    height: 90px;
+   
+    margin: 10px auto;
+}
+/* ======Footer======= */
+
+.footer {
+    width: 100%;
+    height: 1000px;
+}
+
+.footer .top-foot {
+    margin: 0px;
+    height: 720px;
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+ 
+}
+.footer .top-foot .flex{
+    width:50%;
+    margin-left: 10px;
+}
+
+
+.footer .top-foot .flex h2 {
+    font-weight: 400;
+}
+
+.footer .top-foot .flex ul li {
+    list-style: none;
+    
+    width: 150px;
+    padding-top: 25px;
+}
+
+.footer .top-foot .flex ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .58);
+    font-size: 1.1rem;
+}
+
+.footer .top-foot:nth-child(1) {
+    margin-left: 0px;
+}
+.footer .social-media{
+    margin-left:20px;
+}
+}
+@media only screen and (min-width: 600px) {
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+     .head{
+        width: 100%;
+     }
+     .main{
+        width: 100%;
+     }
+     .box1 .right .title {
+        margin-left: 0px;
+        margin-top: 44px;
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+}

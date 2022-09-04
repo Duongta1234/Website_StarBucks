@@ -1,0 +1,662 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+
+    width: 100%;
+    height: 100%;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.head {
+
+    display: block;
+    width: 100%;
+    height: 100px;
+    justify-content: flex-start;
+    display: flex;
+    box-shadow: 1.5px 1.5px 0px 0px gray;
+}
+
+
+.head svg {
+    margin-left: 60px;
+    margin-top: 14px;
+    height: 70px;
+    width: 70px;
+}
+
+.main {
+    width: 580px;
+    margin: 0px auto;
+}
+
+.main .text-under-head {
+    margin-top: 20px;
+
+}
+
+.main .text-under-head .up {
+    text-align: center;
+    width: 100%;
+    height: 86.78px;
+    font-size: 17px;
+}
+
+.main .text-under-head .down {
+    width: 100%;
+}
+
+.main .text-under-head .down h2 {
+    height: 37px;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .58);
+}
+
+.main .text-under-head .down p {
+    height: 90px;
+    color: rgba(0, 0, 0, .58);
+    width: 90%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main .form {
+    width: 100%;
+    height: 1200px;
+    box-shadow: 1px 0px 10px -3px rgba(0, 0, 0, 0.79);
+    -webkit-box-shadow: 1px 0px 10px -3px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: 1px 0px 10px -3px rgba(0, 0, 0, 0.79);
+    border-radius: 30px;
+}
+
+.form-main {
+    width: 388px;
+    margin: 0px auto;
+}
+
+.form .form-main .title-form p {
+    padding-top: 56px;
+    padding-bottom: 32px;
+    color: #00754a;
+    font-size: 17px;
+    word-spacing: 1px;
+}
+
+.form .form-main .title-form h2 {
+    font-size: 22px;
+
+    font-weight: 600;
+}
+
+.form .form-main .form-input-1 {
+    position: relative;
+    margin-top: 48px;
+}
+
+.form .form-main .form-input-1 input {
+    width: 388px;
+    padding: 0px 18px;
+    height: 49px;
+    border: 1px solid gray;
+    transition: 0.25s ease;
+    border-radius: 15px;
+}
+
+.form .form-main .form-input-1 input:focus {
+
+    border: 1.5px solid #6a5af9;
+
+}
+
+.form .form-main .form-input-1 label {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    user-select: none;
+    color: rgba(0, 0, 0, .87);
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form .form-main .form-input-1 input:focus+label {
+    top: -3px;
+    width: 150px;
+    text-align: center;
+    height: 20px;
+    color: #6a5af9;
+    background-color: white;
+}
+
+.form-main .form-input-2 {
+    margin-top: 40px;
+    position: relative;
+}
+
+.form-main .form-input-2 label {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    user-select: none;
+
+    pointer-events: none;
+    transition: 0.25s ease;
+
+}
+
+.form-main .form-input-2 input {
+    width: 388px;
+    padding: 0px 18px;
+    height: 49px;
+    border: 1px solid grey;
+    transition: 0.25s ease;
+    border-radius: 15px;
+}
+
+.form-main .form-input-2 input:focus+label {
+    top: -3px;
+    width: 150px;
+    text-align: center;
+    height: 20px;
+    background-color: white;
+    color: #6a5af9;
+}
+
+.form .form-main .form-input-2 input:focus {
+
+    border: 1.5px solid #6a5af9;
+
+}
+
+/* ======================== */
+
+.form-main2 {
+    width: 388px;
+    margin: 0px auto;
+}
+
+.form .form-main2 .title-form {
+    margin-top: 60px;
+}
+
+.form .form-main2 .title-form h2 {
+    font-size: 22px;
+
+    color: rgba(0, 0, 0, .87);
+    font-weight: 600;
+}
+
+.form .form-main2 .form-input-1 {
+    position: relative;
+    margin-top: 48px;
+}
+
+.form .form-main2 .form-input-1 input {
+    width: 388px;
+    padding: 0px 18px;
+    background-color: white;
+    height: 50px;
+    border: 1px solid grey;
+    transition: 0.25s ease;
+    border-radius: 15px;
+}
+
+.form .form-main2 .form-input-1 input:focus {
+
+    border: 1.5px solid #6a5af9;
+
+}
+
+.form .form-main2 .form-input-1 label {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+   
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    user-select: none;
+    color: rgba(0, 0, 0, .87);
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form .form-main2 .form-input-1 input:focus+label {
+    top: -3px;
+    width: 200px;
+    color: #00754a;
+    text-align: center;
+    height: 20px;
+    background-color: white;
+}
+
+.form-main2 .form-input-2 {
+    margin-top: 40px;
+    position: relative;
+}
+
+.form-main2 .form-input-2 label {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    user-select: none;
+    color: rgba(0, 0, 0, .87);
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-main2 .form-input-2 input {
+    width: 388px;
+    padding: 0px 18px;
+    height: 49px;
+    border: 1px solid grey;
+    transition: 0.25s ease;
+    border-radius: 15px;
+}
+
+.form-main2 .form-input-2 input:focus+label {
+    top: -3px;
+    width: 150px;
+    text-align: center;
+    color: #00754a;
+    height: 20px;
+    background-color: white;
+}
+
+.form .form-main2 .form-input-2 input:focus {
+
+    border: 1.5px solid #6a5af9;
+
+}
+
+.form-main2 p {
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.starbuck-gifcard {
+
+    width: 388px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+.starbuck-gifcard button {
+    background-color: white;
+    border: transparent;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #00754a;
+
+}
+
+.gifcardform_menu_container {
+    transition: all 1s ease-in-out;
+}
+
+.gifcardform_menu {
+    display: none;
+
+
+}
+
+.gifcardform_menu p {
+    padding-top: 10px;
+    font-size: 13px;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+.starbuck_menus1_gif {
+    margin-left: 25px;
+    position: relative;
+}
+
+.starbuck_menus1_gif input {
+    height: 44.8px;
+    width: 340px;
+    padding: 12px 16px;
+    color: rgba(0, 0, 0, .87);
+    font-size: 1.3rem;
+    opacity: 1;
+    border-radius: 16px;
+    border: 1px solid grey;
+}
+
+.starbuck_menus1_gif label {
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    padding-left: 25px;
+    user-select: none;
+    transition: all 0.30s ease;
+}
+
+.starbuck_menus1_gif input:focus {
+    transition: all 0.30s ease;
+}
+
+.starbuck_menus1_gif input:focus+label {
+    top: -10px;
+    width: 270px;
+    background-color: white;
+    left: 26px;
+    color: cadetblue;
+}
+
+.starbuck_menus1_gif p {
+    font-weight: 600;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, .58);
+
+}
+
+/* ============== */
+
+.starbuck_menus2_gif {
+    margin-top: 35px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.starbuck_menus2_gif input {
+    height: 44.8px;
+    width: 340px;
+    padding: 12px 16px;
+    color: rgba(0, 0, 0, .87);
+    font-size: 1.3rem;
+    opacity: 1;
+    border-radius: 16px;
+    border: 1px solid grey;
+}
+
+.starbuck_menus2_gif label {
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    padding-left: 25px;
+    user-select: none;
+    transition: all 0.30s ease;
+}
+
+.starbuck_menus2_gif input:focus {
+    transition: all 0.30s ease;
+}
+
+.starbuck_menus2_gif input:focus+label {
+    top: -10px;
+    width: 270px;
+    background-color: white;
+    left: 26px;
+    color: cadetblue;
+}
+
+.starbuck_menus2_gif p {
+    margin-left: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .58);
+
+}
+
+.underform {
+
+    margin-top: 20px;
+}
+
+.title {
+
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, .58);
+
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-under-title {
+    width: 388px;
+    margin: auto;
+    margin-bottom: 1.6rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .87);
+}
+
+.TermofUse {
+    margin: auto;
+    width: 388px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 2.4rem !important;
+
+}
+
+.TermofUse h2 {
+    font-size: 18px;
+}
+
+.form_ {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Text-term {}
+
+.form-group {}
+
+.form_ a {
+
+
+    color: #00754a;
+}
+
+.form_ label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+
+
+
+.checkbox__box {
+    width: 26px;
+    height: 26px;
+    border: 2px solid grey;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.checkbox__box::after {
+    content: "\2714";
+    color: white;
+
+}
+
+.checkbox__box:hover {
+    background-color: #00754a;
+    border-color: #00754a;
+}
+
+.button_form {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 70px;
+    margin-top: 80px;
+}
+
+.button_form button {
+    width: 187.85px;
+    height: 58.8px;
+    border-radius: 30px;
+    box-shadow: 1px 0px 10px -3px rgba(0, 0, 0, 0.79);
+    -webkit-box-shadow: 1px 0px 10px -3px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: 1px 0px 10px -3px rgba(0, 0, 0, 0.79);
+    border-color: #00754a;
+    background-color: #00754a;
+    border: 0px;
+
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.hr {
+    width: 100%;
+    height: 0.5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.hr hr {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+
+.footer {
+    display: flex;
+    width: 500px;
+    margin: auto;
+
+}
+
+.footer .left_foot {
+    justify-content: left;
+}
+
+.footer .left_foot .button button {
+    width: 122.4px;
+    height: 35.2px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0.5px solid #00754a;
+    color: #00754a;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.footer .para {
+    padding-top: 80px;
+    font-family: duong_my_mieu;
+}
+
+.footer .para p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .head {
+        width: 100%;
+        height: 100px;
+    }
+
+    .head svg {
+        height: 60px;
+        width: 60px;
+        margin-top: 18px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main .text-under-head .down p {
+        width: 95%;
+        margin: auto;
+    }
+
+
+    .main .form {
+        margin: auto;
+        width: 90%;
+        height: 1900px;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        border-radius: none;
+    }
+
+    .main .form .form-main {
+        width: 100%;
+    }
+
+    .main .form .form-input-1 input {
+        width: 90%;
+        margin: auto;
+        font-size: large;
+    }
+
+    .main .form .form-input-2 input {
+        width: 90%;
+        margin: auto;
+        font-size: large;
+       
+    }
+    .form-main2 p {
+       
+       margin-top: 20px;
+        font-weight: 600;
+        font-size: 18px;
+        color: grey;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .starbuck-gifcard button {
+        background-color: white;
+        border: transparent;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        color: #00754a;
+        margin-left: 10px;
+    }
+    .underform{
+        width: 100%;
+    }
+    .underform .title {
+        margin-bottom: 20px;
+        color: rgba(0, 0, 0, .58);
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+    }
+    .underform .title h3{
+     width: 100%;
+     padding: 0px;
+     margin: 0px auto;
+    }
+    .footer .left_foot{
+        margin-left: 20px;
+    }
+}

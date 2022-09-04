@@ -1,0 +1,323 @@
+@font-face {
+
+    font-family: font_duong;
+    src: url(beatifuly-font/Beatifuly-mLYMP.otf);
+}
+@font-face {
+    font-family: duong_my_mieu;
+    src: url(flor-font/FlorPersonalUseRegular-rgpoy.ttf);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 100%;
+     
+}
+
+.head {
+    display: block;
+    width: 100%;
+    height: 100px;
+    justify-content:flex-start ;
+    display: flex;
+    box-shadow: 1.5px 1.5px 0px 0px gray;
+}
+
+
+.head svg{
+ top: 14px;
+ left: 80px;
+ 
+    height: 70px;
+    width: 70px;
+}
+
+.main {
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.main .tiltle {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main .tiltle h3 {
+
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.form {
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 515.1px;
+    width: 500px;
+    border-radius: 15px;
+
+
+}
+
+.form .noti {
+    color: #00754a;
+    margin-top: 10px;
+}
+
+.form .noti p {
+    padding-top: 36px;
+    padding-left: 36px;
+}
+
+.input {
+    margin-left: 40px;
+    display: block;
+    position: relative;
+}
+
+.input input {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1.5px solid grey;
+    width: 436px;
+    height: 48px;
+position: relative;
+    display: block;
+}
+
+.input input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    padding-left: 10px;
+    font-size: 20px;
+    top: 10px;
+    color: #00754a;
+    position: absolute;
+
+}
+.input input:focus{
+    border: 3px solid #00754a;
+}
+
+svg {
+    position: absolute;
+    top: 84px;
+    left: 400px;
+    color: grey;
+}
+
+.noti2 {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.noti2 input {
+    height: 24px;
+    width: 24px;
+    
+
+}
+
+
+.noti2 p {
+    color: black;
+    margin-top: 2px;
+    font-size: 25px;
+    font-family: font_duong;
+}
+
+.noti2 p a {
+    color: #00754a;
+}
+
+.forgot_username {
+    margin-left: 40px;
+}
+
+.forgot_username a {
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 40px;
+    color: #00754a;
+}
+
+.forgot_password {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.forgot_password a {
+    font-size: 16px;
+    font-weight: 900;
+
+    color: #00754a;
+}
+
+.button_signin {
+    margin-top: 50px;
+    margin-left: 330px;
+}
+
+.button_signin button {
+    width: 109.89px;
+    height: 58.8px;
+    background: #00754a;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.starbuck_reward {
+    margin-top: 30px;
+    height: 216.2px;
+    width: 500px;
+    border-radius: 18px;
+    background-color: rgba(212, 233, 226, .33);
+}
+.starbuck_reward .text-1{
+   
+    color: #00754a;
+ text-align: center;
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+}
+.starbuck_reward .text-2{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+.starbuck_reward .button{
+    width: 103.23px;
+    height: 35.2px;
+    margin: auto;
+    
+}
+.starbuck_reward .button button{ 
+    width: 103.23px;
+    height: 35.2px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: #00754a;
+    border: 1px solid #00754a;
+    background-color: rgba(212, 233, 226, .33);
+}
+.hr {
+    width: 100%;
+    height: 0.5px;
+    margin-bottom: 20px;
+}
+.hr hr{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+.footer{
+    display: flex;
+    width: 500px;
+    margin:  auto;
+    
+}
+.footer .left_foot{
+    justify-content: left;
+}
+.footer .left_foot .button button{
+    width: 122.4px;
+    height: 35.2px;
+    border-radius: 20px;
+    background-color:white ;
+    border: 0.5px solid #00754a;
+    color: #00754a;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.footer .para{
+    padding-top: 80px;
+    font-family: duong_my_mieu;
+}
+.footer .para p{
+ font-size: 20px;
+ font-weight: bolder;
+}
+@media only screen and (max-width: 600px){
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    .head{
+        width: 100%;
+        height: 100px;
+    }
+    .main{
+        width: 100%;
+    }
+    .main .tiltle {
+        margin-top: 20px;
+        text-align: center;
+     
+    }
+    .main .tiltle h3{
+       font-weight: 900;
+        font-size: 25px;
+    }
+    .main .form {
+      
+        width: 100%;
+        box-shadow: none;
+
+    }
+    .main .noti p{
+        padding-left: 15px;
+    }
+    .main .input{
+        padding-left: 0px; margin-left: 5%; 
+       
+    }
+    .main .input input{
+        margin-bottom: 30px;
+        width: 358px;
+        height: 44px;
+    }
+    .main .form svg{
+        top: 85px;
+        left: 320px;
+    }
+    .main .noti2{
+        width: 100%;
+    }
+    .main .forgot_username{
+        width: 100%;
+    }
+    .main .forgot_password{
+        width: 100%;
+    }
+    .main .button_signin{
+        margin-left: 200px;
+    }
+    .main .starbuck_reward{
+        width: 100%;
+    }
+    .main .starbuck_reward .text-1 {
+        text-align: center;
+       margin-left: 0px;
+       width: 100%;
+    }
+    .main .text-2{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+}
